@@ -17,7 +17,7 @@ export default class HomeScreen extends Component {
     super();
     this.state = {
       articleDetails: {},
-      ngrok_url: "",
+      ngrok_url: "http://127.0.0.1:5000",
     };
   }
 
