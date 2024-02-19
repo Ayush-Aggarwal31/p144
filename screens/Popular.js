@@ -15,7 +15,7 @@ export default class PopularScreen extends Component {
     super(props);
     this.state = {
       data: [],
-      ngrok_url:""
+      ngrok_url:"http://127.0.0.1:5000"
     };
   }
 
